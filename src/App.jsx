@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import React, { Component } from 'react';
 import {Spinner} from './Utils/Spinner';
 import Modal from './Utils/GenModal';
 import {ApiService} from './Services/ApiService';
 import { Inertia } from "@inertiajs/inertia";
-import { Link, usePage } from "@inertiajs/inertia-react";
 import {Button, GlobalStyles, Box, Panel, H2, Badge, Flex, FlexItem} from '@bigcommerce/big-design';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
